@@ -77,7 +77,7 @@ namespace Kviz
                     Ispis(lista);
                 }else
                 {
-                    MessageBox.Show("Vas rezultat je: " + tocniOdgovori + "/" + lista.Count); //OVO JE ZAPRAVO NOVA FORMA
+                    MessageBox.Show("Vas rezultat je " + tocniOdgovori + " /" + lista.Count); //OVO JE ZAPRAVO NOVA FORMA
                 }
             }
             else
