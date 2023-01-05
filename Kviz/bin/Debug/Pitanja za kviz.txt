@@ -1,0 +1,3 @@
+Koje je boje nebo;Plavo;Zeleno;Crveno;Sivo;Plavo
+Najveci broj;1;2;3;4;4
+Koje je prvo slovo abecede;r;g;a;h;a
