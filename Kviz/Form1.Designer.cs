@@ -62,7 +62,7 @@ namespace Kviz
             // 
             // odgovor2
             // 
-            this.odgovor2.Location = new System.Drawing.Point(607, 221);
+            this.odgovor2.Location = new System.Drawing.Point(607, 234);
             this.odgovor2.Name = "odgovor2";
             this.odgovor2.Padding = new System.Windows.Forms.Padding(15);
             this.odgovor2.Size = new System.Drawing.Size(364, 114);

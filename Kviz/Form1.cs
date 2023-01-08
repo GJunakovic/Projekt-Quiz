@@ -13,10 +13,11 @@ namespace Kviz
         int indexPitanja = 0;
 
         string tocanOdg;
+        public string imeIgraca;
 
+        PocetniPrikaz frm1 = new PocetniPrikaz();
 
         List<Pitanje> lista = new List<Pitanje>();
-
 
         public Form1()
         {
@@ -25,12 +26,13 @@ namespace Kviz
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
 
-            string imeDatoteke = "Pitanja za kviz.txt"; // datoteka sa pitanjima i odgovorima
+            string imeDatoteke = "Pitanja i odgovori.txt"; // datoteka sa pitanjima i odgovorima
 
             if (!File.Exists(imeDatoteke))
             {
-                MessageBox.Show("Nema datoteke sa pitanjima lol");
+                MessageBox.Show("Nema datoteke sa pitanjima!");
                 return;
             }
             StreamReader sr = File.OpenText(imeDatoteke);
@@ -52,9 +54,7 @@ namespace Kviz
             }
 
             Ispis(lista);
-
-
-
+            
         }
 
         int tocniOdgovori;
@@ -62,9 +62,6 @@ namespace Kviz
         public void OdgovoriEvent(object sender, EventArgs e)
         {
             var senderObject = (Button)sender;
-
-            //MessageBox.Show("Stisnuti odgovor je " + senderObject.Text);// provjera stisnutog
-            //MessageBox.Show("tocan odgovor je " + tocanOdg);// provjera tocnog
 
             if (senderObject.Text == tocanOdg)
             {
@@ -75,30 +72,43 @@ namespace Kviz
                 if (indexPitanja < lista.Count)
                 {
                     Ispis(lista);
-                }else
+                }
+                else
                 {
-                    MessageBox.Show("Vas rezultat je" + tocniOdgovori + "/" + lista.Count); //OVO JE ZAPRAVO NOVA FORMA
+                    MessageBox.Show("Vas rezultat je" + tocniOdgovori + "/" + lista.Count); //OVO JE ZAPRAVO NOVA FORMA KADA JE KORISNIK ODGOVORIJA NA SVA PITANJA
                 }
             }
             else
             {
-                MessageBox.Show("Pogresan odgovor!. Vas rezultat je" + tocniOdgovori + "/" + lista.Count); //OVO JE ZAPRAVO NOVA FORMA
+                //OVO JE ZAPRAVO NOVA FORMA KADA KRIVO ODGOVORI                
+                this.Visible = false;
+                GameOver_prikaz gameOverForma = new GameOver_prikaz();
+                gameOverForma.prikazBodova.Text = "Vas rezultat je " + tocniOdgovori + "/" + lista.Count;
+                gameOverForma.ShowDialog();
+                dodajRezultat(tocniOdgovori);
+                
                 // IGRA JE GOTOVA
             }
         }
 
         void Ispis(List<Pitanje> lista)
         {
-
             lblPitanje.Text = lista[indexPitanja].pitanje;
             odgovor1.Text = lista[indexPitanja].odgovor1;
             odgovor2.Text = lista[indexPitanja].odgovor2;
             odgovor3.Text = lista[indexPitanja].odgovor3;
             odgovor4.Text = lista[indexPitanja].odgovor4;
             tocanOdg = lista[indexPitanja].tocanOdgovor;
-
         }
 
+        private void dodajRezultat(int rezultat)
+        {
+            
+            using (StreamWriter sw = File.AppendText("rezultati.txt"))
+            {
+                sw.WriteLine(imeIgraca + " --> " + rezultat);
+            }
+        }
 
     }
 }
