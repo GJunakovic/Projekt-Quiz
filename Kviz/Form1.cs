@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Windows.Forms;
 
 namespace Kviz
@@ -26,7 +25,7 @@ namespace Kviz
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
 
             string imeDatoteke = "Pitanja i odgovori.txt"; // datoteka sa pitanjima i odgovorima
 
@@ -54,22 +53,23 @@ namespace Kviz
             }
 
             Ispis(lista);
-            
+            label1.Text = tocniOdgovori + "/" + lista.Count;
         }
 
         int tocniOdgovori;
 
         public void OdgovoriEvent(object sender, EventArgs e)
         {
-            var senderObject = (Button)sender;
+            var senderObject = (Button)sender; //Provjera dogadaja kada je pritisnut jedan od ponudenih botuna
 
-            if (senderObject.Text == tocanOdg)
+            if (senderObject.Text == tocanOdg)  //AKO JE ODGOVOR TOCAN 
             {
                 MessageBox.Show("tocan odgovor");
                 tocniOdgovori++;
                 indexPitanja++;
+                label1.Text = tocniOdgovori + "/" + lista.Count;
 
-                if (indexPitanja < lista.Count)
+                if (indexPitanja < lista.Count)     // AKO TRENUTNI BROJ PITANJA MANJI OD UKUPNOG BROJA PITANJA
                 {
                     Ispis(lista);
                 }
@@ -83,15 +83,15 @@ namespace Kviz
                 //OVO JE ZAPRAVO NOVA FORMA KADA KRIVO ODGOVORI                
                 this.Visible = false;
                 GameOver_prikaz gameOverForma = new GameOver_prikaz();
-                gameOverForma.prikazBodova.Text = "Vas rezultat je " + tocniOdgovori + "/" + lista.Count;
+                gameOverForma.prikazBodova.Text = "Vaš rezultat je " + tocniOdgovori + "/" + lista.Count;
                 gameOverForma.ShowDialog();
                 dodajRezultat(tocniOdgovori);
-                
+
                 // IGRA JE GOTOVA
             }
         }
 
-        void Ispis(List<Pitanje> lista)
+        void Ispis(List<Pitanje> lista) // funkcija koja ispisuje pitanja i odgovore na botune
         {
             lblPitanje.Text = lista[indexPitanja].pitanje;
             odgovor1.Text = lista[indexPitanja].odgovor1;
@@ -101,9 +101,9 @@ namespace Kviz
             tocanOdg = lista[indexPitanja].tocanOdgovor;
         }
 
-        private void dodajRezultat(int rezultat)
+        private void dodajRezultat(int rezultat) // funkcija koja zapisuje ime igraca i njegove osvojene bodove.
         {
-            
+
             using (StreamWriter sw = File.AppendText("rezultati.txt"))
             {
                 sw.WriteLine(imeIgraca + " --> " + rezultat);

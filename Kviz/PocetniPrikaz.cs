@@ -13,17 +13,28 @@ namespace Kviz
 {
     public partial class PocetniPrikaz : Form
     {
-        
+        System.Media.SoundPlayer player = new System.Media.SoundPlayer();
+
         public PocetniPrikaz()
         {
             InitializeComponent();
             UcitajRezultate();
+            player.SoundLocation = "glazba.wav";
         }
 
         private void button_WOC1_Click(object sender, EventArgs e)
         {
+            player.Play();
             Form1 frm1 = new Form1();
-            frm1.imeIgraca = unosImenatxt.Text;
+            if (unosImenatxt.Text == "")    // provjera unosa imena ako nije popounjen textbox igra se nece pokreniti
+            {
+                MessageBox.Show("Polje ime je obavezno!");
+                return;
+            }
+            else
+            {
+                frm1.imeIgraca = unosImenatxt.Text;
+            }
             this.Visible = false;
             frm1.ShowDialog();
             
@@ -35,7 +46,7 @@ namespace Kviz
         }
 
 
-        private void UcitajRezultate()
+        private void UcitajRezultate()                  //FUNKCIJA KOJA UCITAVA REZULTATE IZ TXT FILE-A, U LISTVIEW-U
         {
             string[] nizRezultata = File.ReadAllLines("rezultati.txt");
 

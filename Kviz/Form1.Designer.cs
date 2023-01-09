@@ -34,6 +34,7 @@ namespace Kviz
             this.odgovor2 = new System.Windows.Forms.Button();
             this.odgovor3 = new System.Windows.Forms.Button();
             this.odgovor4 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblPitanje
@@ -96,12 +97,23 @@ namespace Kviz
             this.odgovor4.UseVisualStyleBackColor = true;
             this.odgovor4.Click += new System.EventHandler(this.OdgovoriEvent);
             // 
+            // label1
+            // 
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.Font = new System.Drawing.Font("OCR A Extended", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(1031, 15);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(129, 45);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "label1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Kviz.Properties.Resources.pozadina;
             this.ClientSize = new System.Drawing.Size(1178, 744);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.odgovor4);
             this.Controls.Add(this.odgovor3);
             this.Controls.Add(this.odgovor2);
@@ -123,6 +135,7 @@ namespace Kviz
         private System.Windows.Forms.Button odgovor2;
         private System.Windows.Forms.Button odgovor3;
         private System.Windows.Forms.Button odgovor4;
+        public System.Windows.Forms.Label label1;
     }
 }
 

@@ -20,3 +20,5 @@ C:\Users\gjuna\Documents\Faks\Uvod u programsko inženjerstvo\ProjektQuiz\Kviz\o
 C:\Users\gjuna\Documents\Faks\Uvod u programsko inženjerstvo\ProjektQuiz\Kviz\obj\Debug\Kviz.pdb
 C:\Users\gjuna\Documents\Faks\Uvod u programsko inženjerstvo\ProjektQuiz\Kviz\obj\Debug\Kviz.GameOver_prikaz.resources
 C:\Users\gjuna\Documents\Faks\Uvod u programsko inženjerstvo\ProjektQuiz\Kviz\obj\Debug\Kviz.PocetniPrikaz.resources
+C:\Users\gjuna\Documents\Faks\Uvod u programsko inženjerstvo\ProjektQuiz\Kviz\bin\Debug\Kviz.exe.CodeAnalysisLog.xml
+C:\Users\gjuna\Documents\Faks\Uvod u programsko inženjerstvo\ProjektQuiz\Kviz\bin\Debug\Kviz.exe.lastcodeanalysissucceeded

@@ -31,7 +31,7 @@ namespace Kviz
         {
             this.label1 = new System.Windows.Forms.Label();
             this.prikazBodova = new System.Windows.Forms.Label();
-            this.button_WOC1 = new ePOSOne.btnProduct.Button_WOC();
+            this.button_WOC2 = new ePOSOne.btnProduct.Button_WOC();
             this.SuspendLayout();
             // 
             // label1
@@ -40,9 +40,9 @@ namespace Kviz
             this.label1.Font = new System.Drawing.Font("Matura MT Script Capitals", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(172, 84);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(832, 70);
+            this.label1.Size = new System.Drawing.Size(745, 70);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Zao nam je ali igra je zavrsena :.(";
+            this.label1.Text = "Žao nam je ali igra je završena.";
             // 
             // prikazBodova
             // 
@@ -55,21 +55,24 @@ namespace Kviz
             this.prikazBodova.Text = "...";
             this.prikazBodova.Click += new System.EventHandler(this.label2_Click);
             // 
-            // button_WOC1
+            // button_WOC2
             // 
-            this.button_WOC1.BorderColor = System.Drawing.Color.Silver;
-            this.button_WOC1.ButtonColor = System.Drawing.Color.Red;
-            this.button_WOC1.Location = new System.Drawing.Point(184, 396);
-            this.button_WOC1.Name = "button_WOC1";
-            this.button_WOC1.OnHoverBorderColor = System.Drawing.Color.Gray;
-            this.button_WOC1.OnHoverButtonColor = System.Drawing.Color.Yellow;
-            this.button_WOC1.OnHoverTextColor = System.Drawing.Color.Gray;
-            this.button_WOC1.Size = new System.Drawing.Size(189, 67);
-            this.button_WOC1.TabIndex = 2;
-            this.button_WOC1.Text = "button_WOC1";
-            this.button_WOC1.TextColor = System.Drawing.Color.White;
-            this.button_WOC1.UseVisualStyleBackColor = true;
-            this.button_WOC1.Click += new System.EventHandler(this.button_WOC1_Click);
+            this.button_WOC2.BorderColor = System.Drawing.Color.Indigo;
+            this.button_WOC2.ButtonColor = System.Drawing.Color.Goldenrod;
+            this.button_WOC2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_WOC2.Font = new System.Drawing.Font("OCR A Extended", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_WOC2.ForeColor = System.Drawing.Color.Indigo;
+            this.button_WOC2.Location = new System.Drawing.Point(184, 389);
+            this.button_WOC2.Name = "button_WOC2";
+            this.button_WOC2.OnHoverBorderColor = System.Drawing.Color.Indigo;
+            this.button_WOC2.OnHoverButtonColor = System.Drawing.Color.Goldenrod;
+            this.button_WOC2.OnHoverTextColor = System.Drawing.Color.White;
+            this.button_WOC2.Size = new System.Drawing.Size(504, 50);
+            this.button_WOC2.TabIndex = 3;
+            this.button_WOC2.Text = "Izlaz iz igrice";
+            this.button_WOC2.TextColor = System.Drawing.Color.White;
+            this.button_WOC2.UseVisualStyleBackColor = true;
+            this.button_WOC2.Click += new System.EventHandler(this.button_WOC2_Click);
             // 
             // GameOver_prikaz
             // 
@@ -77,7 +80,7 @@ namespace Kviz
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
             this.ClientSize = new System.Drawing.Size(1178, 744);
-            this.Controls.Add(this.button_WOC1);
+            this.Controls.Add(this.button_WOC2);
             this.Controls.Add(this.prikazBodova);
             this.Controls.Add(this.label1);
             this.Name = "GameOver_prikaz";
@@ -93,6 +96,6 @@ namespace Kviz
 
         private System.Windows.Forms.Label label1;
         public System.Windows.Forms.Label prikazBodova;
-        private ePOSOne.btnProduct.Button_WOC button_WOC1;
+        private ePOSOne.btnProduct.Button_WOC button_WOC2;
     }
 }

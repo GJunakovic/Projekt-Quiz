@@ -31,12 +31,9 @@ namespace Kviz
             
         }
 
-        private void button_WOC1_Click(object sender, EventArgs e)
+        private void button_WOC2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Application.Exit(); // DOGADAJ KOJI PRITISKOM NA BOTUN ZATVARA CIJELI PROGRAM.
         }
-
-        
-
     }
 }
