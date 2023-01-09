@@ -19,7 +19,7 @@ namespace Kviz
         {
             InitializeComponent();
             UcitajRezultate();
-            player.SoundLocation = "glazba.wav";
+            player.SoundLocation = "glazba2.wav";
         }
 
         private void button_WOC1_Click(object sender, EventArgs e)
