@@ -25,8 +25,6 @@ namespace Kviz
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-
             string imeDatoteke = "Pitanja i odgovori.txt"; // datoteka sa pitanjima i odgovorima
 
             if (!File.Exists(imeDatoteke))
@@ -64,7 +62,6 @@ namespace Kviz
 
             if (senderObject.Text == tocanOdg)  //AKO JE ODGOVOR TOCAN 
             {
-                MessageBox.Show("tocan odgovor");
                 tocniOdgovori++;
                 indexPitanja++;
                 label1.Text = tocniOdgovori + "/" + lista.Count;
@@ -75,13 +72,17 @@ namespace Kviz
                 }
                 else
                 {
-                    MessageBox.Show("Vas rezultat je" + tocniOdgovori + "/" + lista.Count); //OVO JE ZAPRAVO NOVA FORMA KADA JE KORISNIK ODGOVORIJA NA SVA PITANJA
+                    //OVO JE  NOVA FORMA KADA JE KORISNIK ODGOVORIJA NA SVA PITANJA
+                    SveOdgovorenoForma sveOdg = new SveOdgovorenoForma();
+                    sveOdg.ShowDialog();
+                    dodajRezultat(tocniOdgovori);
+                    this.Close();
                 }
             }
             else
             {
                 //OVO JE ZAPRAVO NOVA FORMA KADA KRIVO ODGOVORI                
-                this.Visible = false;
+                this.Close();
                 GameOver_prikaz gameOverForma = new GameOver_prikaz();
                 gameOverForma.prikazBodova.Text = "Vaš rezultat je " + tocniOdgovori + "/" + lista.Count;
                 gameOverForma.ShowDialog();

@@ -22,7 +22,7 @@ namespace Kviz
             player.SoundLocation = "glazba2.wav";
         }
 
-        private void button_WOC1_Click(object sender, EventArgs e)
+        private void button_WOC1_Click(object sender, EventArgs e)  // KADA JE BOTUN PRITISNUT ZAPOCINJE IGRA
         {
             player.Play();
             Form1 frm1 = new Form1();

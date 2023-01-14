@@ -1,15 +1,44 @@
-Što nije voće;Naranča;Jabuka;Limun;Krumpir;Krumpir
+Što nije voće?;Naranča;Jabuka;Limun;Krumpir;Krumpir
 Đavolji trokut ujedno nosi i naziv...;Havajski trokut;Grenlandski trokut;Bermudski trokut;Japanski trokut;Bermudski trokut
 Radnja drame "Romeo i Julija" odvija se u;Veneciji;Palermu;Firenci;Veroni;Veroni
-U kojem sportu ne postoji termin "volej" ?;Tenis;Nogomet;Rukomet;Badminton;Rukomet
+Sinjska „rera“ (ojkanje) bila je popularnni naziv za...;Autobus;Trolejbus;Vlak;Brod;Vlak
+Kojim plivačkim stilom je Đurđa Bjedov osvojila zlatnu olimpijsku medalju?;slobodno;leđno;delfin;prsno;prsno
+U kojem sportu ne postoji termin "volej"?;Tenis;Nogomet;Rukomet;Badminton;Rukomet
 Koliko kilometara dijeli Rusiju od SAD-a na najbližoj udaljenosti?;Manje od 5km;Oko 10km;Oko 20km;Više od 50km;Manje od 5km
+Koje su dimenzije papira A4 u cm?;15,5x19,5;18,6x21,7;21,0x29,7;23,5x28,8;21,0x29,7
 Naziv gladijator dolazi od rimskog gladius što znači...;Staklo;Zaboravljen;Mač;Dragovoljac;Mač
+Kako se naziva opskrba aviona hranom i pićem?;Cargi;Catering;Charter;Chalenger;Catering
 Koja država je porijeklo „Arabica Caffe“?;Etijopija;Saudijska Arabija;Egipat;Jemen;Etijopija
+Autohtoni lički žični instrument zove se...;Bugarija;Dangubica;Zobnica;Žičanica;Dangubica
+Tko od navedenih nikad nije dobio nagradu Orlando za dramu na dubrovačkim ljetnim igrama?;Goran Višnjić;Vanja Drach;Rade Šerbedžija;Asja Kisić;Asja Kisić
 Društvo Mackintosh su prijatelji...;Aplle računala;Ptičijeg perja;Gumene odjeće;Vodenih krveta;Gumene odjeće
 Koliko je glava isklesao Juraj Dalmatinac na apsidama katedrale u Šibeniku?;44;54;64;74;74
+Kad netko u nogometu sebi „zabije “ gol to je...;Samostrel;Hara-kiri;Autogol;Zaleđe;Autogol
+Koji je najprometniji europski aerodrom?;Berlin;Madrid;Atena;Frankfurt;Frankfurt
+Koliko perioda ima hokejaška utakmica?;2;3;4;5;3
 Koliko puta godišnje Zemlja obiđe Sunce?;1;7;52;365;1
 Što je konjska smrt?;Bolest konja;Vilin konjic;Tužna priča;Nezdravo piće;Vilin konjic
+Koliko iznosi najviši vrh u Danskoj?;173m;373m;573m;773m;173m
 Eufrazijeva bazilika nalazi se u...;Poreču;Vrsaru;Rovinju;Puli;Poreču
+Koje je najdublje jezero na svijetu?;Chad;Bajkalsko;Crater Lake;Tanjganika;Bajkalsko
+Na Hebrejskom jeziku Bog s nama je...;Hebran;Jerihon;Emanuel;Mojskije;Emanuel
+Koji od navedenig nije grad u Nizozemskoj?;Maastricht;Eindhoven;Haarlem;Wagenaar;Wagenaar
+Nirnberška jaja su...;sijalice;satovi;biljske kugle;kolači;satovi
 Koliko je brojeva moglo zapamtiti prvo elektronično računalo opće namjene-ENIAC?;20;200;2000;20000;20
+Koja država je najpoznatija po izdradi drvenih cipela- Klompi?;Italija;Danska;Norveška;Nizozemska;Nizozemska
+Koju je cipelicu Pepeljuga izgubila?;Baletnu;Staklenu;Čizmicu;Sandalu;Staklenu
+Sastav od osam glazbenika zove se...;Sekstet;Oktet;Nonet;Kvartet;Oktet
+Glavni utjecaj na plimu i oskeu ima...;Mjesec;Nagib zemlje;Visina obale;Vjetar;Mjesec
+Što je najveće?;Gigabajt;Terabajt;Kilobajt;Megabajt;Terabajt
 Najpoznatija puzzle igra na računalima zove se...;Unix;Universe;Matrix;Tetris;Tetris
+Na kojoj se hrvatskoj novčanici nalazila slika Marka Maulića?;100kn;200kn;500kn;1000kn;500kn
+S kojom državom ne graniči Kašmir?;Kina;Indija;Afganistan;Pakistan;Afganistan
+Što je točno u prevodu Homo-sapiens?;Visoki čovjek;Uspravni čovjek;Čovjek lovac;Umni čovjek;Umni čovjek
+Čega je etanol sastavni dio?;Nafte;Plastike;Alkohola;Plina;Alkohola
 Pisac „Alice u zemlji čuda“ također je bio i;matematičar;lječnik;slikar;odvjetnik;matematičar
+"Eureka" je moto koje američke države?;Floride;Teksasa;Oklahome;Kalifornije;Kalifornije
+Na putu iz Delnica u Fužine 'ugazit' ćemo u...?;Mlake;Bare;Lokve;Potoke;Lokve
+Najveći postotak piva zauzima...?;Voda;Hmelj;Kvasac;Pšenica;Voda
+Tko je pisac scenarija serije „Naše malo misto“?;Boris Dvornik;Dino Dvornik;Miljenko Smoje;Momčilo Popadić;Miljenko Smoje
+Kojem je filmu inovativna primjena pjene za gašenje požara pri stvaranju umjetnog snijega donijela „tehničkog Oscara“?;Divan život;Život sa stricem;Drvo Života;Život je lijep;Divan život
+Koji je datum „sitnim,nespretnim slovima“u biljeznicu upisao Winston Smith?;2.travnja 1982.;3.travnja 1983.;4. travnja 1984.;5. travnja 1985.;4. travnja 1984.

@@ -22,3 +22,19 @@ C:\Users\gjuna\Documents\Faks\Uvod u programsko inženjerstvo\ProjektQuiz\Kviz\o
 C:\Users\gjuna\Documents\Faks\Uvod u programsko inženjerstvo\ProjektQuiz\Kviz\obj\Debug\Kviz.PocetniPrikaz.resources
 C:\Users\gjuna\Documents\Faks\Uvod u programsko inženjerstvo\ProjektQuiz\Kviz\bin\Debug\Kviz.exe.CodeAnalysisLog.xml
 C:\Users\gjuna\Documents\Faks\Uvod u programsko inženjerstvo\ProjektQuiz\Kviz\bin\Debug\Kviz.exe.lastcodeanalysissucceeded
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\Kviz\bin\Debug\Kviz.exe.config
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\Kviz\bin\Debug\Kviz.exe
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\Kviz\bin\Debug\Kviz.pdb
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\Kviz\obj\Debug\Kviz.Form1.resources
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\Kviz\obj\Debug\Kviz.GameOver_prikaz.resources
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\Kviz\obj\Debug\Kviz.PocetniPrikaz.resources
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\Kviz\obj\Debug\Kviz.Properties.Resources.resources
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\Kviz\obj\Debug\Kviz.csproj.GenerateResource.cache
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\Kviz\obj\Debug\Kviz.csproj.CoreCompileInputs.cache
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\Kviz\obj\Debug\Kviz.exe
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\Kviz\obj\Debug\Kviz.pdb
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\Kviz\obj\Debug\Kviz.csproj.AssemblyReference.cache
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\Kviz\obj\Debug\Kviz.SveOdgovorenoForma.resources
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\Kviz\bin\Debug\nunit.framework.dll
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\Kviz\bin\Debug\nunit.framework.xml
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\Kviz\obj\Debug\Kviz.csproj.CopyComplete
