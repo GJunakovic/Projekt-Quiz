@@ -1,0 +1,17 @@
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\KvizTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\KvizTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\KvizTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\KvizTests\bin\Debug\KvizTests.dll
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\KvizTests\bin\Debug\KvizTests.pdb
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\KvizTests\bin\Debug\Kviz.exe
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\KvizTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\KvizTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\KvizTests\bin\Debug\Kviz.pdb
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\KvizTests\bin\Debug\Kviz.exe.config
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\KvizTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\KvizTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\KvizTests\obj\Debug\KvizTests.csproj.AssemblyReference.cache
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\KvizTests\obj\Debug\KvizTests.csproj.CoreCompileInputs.cache
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\KvizTests\obj\Debug\KvizTests.csproj.CopyComplete
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\KvizTests\obj\Debug\KvizTests.dll
+C:\Users\gjuna\Source\Repos\Projekt-Quiz\KvizTests\obj\Debug\KvizTests.pdb

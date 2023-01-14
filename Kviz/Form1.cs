@@ -13,6 +13,7 @@ namespace Kviz
 
         string tocanOdg;
         public string imeIgraca;
+        int tocniOdgovori;
 
         PocetniPrikaz frm1 = new PocetniPrikaz();
 
@@ -54,16 +55,32 @@ namespace Kviz
             label1.Text = tocniOdgovori + "/" + lista.Count;
         }
 
-        int tocniOdgovori;
+        public Rezultat KalkulirajRezultat(string text, string tocanOdogovr, int tocniOdgovori, int indexPitanja)
+        {
+            if (text == tocanOdogovr)
+            {
+                tocniOdgovori++;
+                indexPitanja++;
+                return new Rezultat(tocniOdgovori, true, indexPitanja);
+            }
+            else
+            {
+                return new Rezultat(tocniOdgovori, false, indexPitanja);
+            }
+        }
+
+
 
         public void OdgovoriEvent(object sender, EventArgs e)
         {
             var senderObject = (Button)sender; //Provjera dogadaja kada je pritisnut jedan od ponudenih botuna
 
-            if (senderObject.Text == tocanOdg)  //AKO JE ODGOVOR TOCAN 
+            Rezultat rezultat = KalkulirajRezultat(senderObject.Text, tocanOdg, tocniOdgovori, indexPitanja);
+
+            if (rezultat.tocanTrenutniOdgovor)  //AKO JE ODGOVOR TOCAN 
             {
-                tocniOdgovori++;
-                indexPitanja++;
+                tocniOdgovori = rezultat.tocniOdgovori;
+                indexPitanja = rezultat.indexPitanja;
                 label1.Text = tocniOdgovori + "/" + lista.Count;
 
                 if (indexPitanja < lista.Count)     // AKO TRENUTNI BROJ PITANJA MANJI OD UKUPNOG BROJA PITANJA
