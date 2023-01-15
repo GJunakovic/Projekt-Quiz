@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace Kviz
@@ -14,6 +15,8 @@ namespace Kviz
         string tocanOdg;
         public string imeIgraca;
         int tocniOdgovori;
+
+        int milliseconds = 2000; // delay za izlaz iz apk
 
         PocetniPrikaz frm1 = new PocetniPrikaz();
 
@@ -94,6 +97,9 @@ namespace Kviz
                     sveOdg.ShowDialog();
                     dodajRezultat(tocniOdgovori);
                     this.Close();
+
+                    Thread.Sleep(milliseconds); // dodano da aplikacija bez obzira sta je stisnuto na kraju botun za izlaz ili X u kantunu prekine sa radon
+                    Application.Exit();
                 }
             }
             else
@@ -104,6 +110,10 @@ namespace Kviz
                 gameOverForma.prikazBodova.Text = "Vaš rezultat je " + tocniOdgovori + "/" + lista.Count;
                 gameOverForma.ShowDialog();
                 dodajRezultat(tocniOdgovori);
+
+                  
+                Thread.Sleep(milliseconds); // dodano da aplikacija bez obzira sta je stisnuto na kraju botun za izlaz ili X u kantunu prekine sa radon
+                Application.Exit();
 
                 // IGRA JE GOTOVA
             }

@@ -42,3 +42,4 @@ Najveći postotak piva zauzima...?;Voda;Hmelj;Kvasac;Pšenica;Voda
 Tko je pisac scenarija serije „Naše malo misto“?;Boris Dvornik;Dino Dvornik;Miljenko Smoje;Momčilo Popadić;Miljenko Smoje
 Kojem je filmu inovativna primjena pjene za gašenje požara pri stvaranju umjetnog snijega donijela „tehničkog Oscara“?;Divan život;Život sa stricem;Drvo Života;Život je lijep;Divan život
 Koji je datum „sitnim,nespretnim slovima“u biljeznicu upisao Winston Smith?;2.travnja 1982.;3.travnja 1983.;4. travnja 1984.;5. travnja 1985.;4. travnja 1984.
+U pjesmi koje grupe "Radovan baca daske";The Beatles;The Rolling Stone;Queen;U2;Queen
