@@ -4,3 +4,4 @@ test3 --> 44
 hhhh --> 0
 ff --> 2
 gtgtgt --> 2
+test15.1 --> 13

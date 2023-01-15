@@ -55,7 +55,7 @@ namespace Kviz
             label1.Text = tocniOdgovori + "/" + lista.Count;
         }
 
-        public Rezultat KalkulirajRezultat(string text, string tocanOdogovr, int tocniOdgovori, int indexPitanja)
+        public Rezultat KalkulirajRezultat(string text, string tocanOdogovr, int tocniOdgovori, int indexPitanja)   // funkcija koja provjerava tocnost odgovora i povecava broj bodova i index
         {
             if (text == tocanOdogovr)
             {
